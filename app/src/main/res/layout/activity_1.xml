@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".Activity_1">
+
+    <TextView
+        android:id="@+id/tituloformulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/texto"
+        android:text="@string/tituloformulario" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/nombre"
+        android:textColor="@color/texto" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:textColor="@color/texto"
+            android:text="@string/fechanacimiento"/>
+
+        <DatePicker
+            android:id="@+id/dpfechanacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+        <!--<GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/bcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:background="@color/boton"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:text="Cancel"/>
+            <Button
+                android:id="@+id/bok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:background="@color/boton"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:text="OK"/>
+
+        </GridLayout>-->
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ettelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:inputType="text"
+        android:textColor="@color/texto"
+        android:text="@string/telefono" />
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/texto"
+        android:text="@string/email" />
+
+
+    <EditText
+        android:id="@+id/etdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/texto"
+        android:text="@string/descripcion" />
+
+    <Button
+        android:id="@+id/bsiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texto"
+        android:background="@color/boton"
+        android:text="@string/siguiente"/>
+
+
+
+</LinearLayout>
+

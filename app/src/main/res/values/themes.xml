@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Coursera_semana_02" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A33400</item><!-- color fondo del titulo de la app -->
+        <item name="colorPrimaryVariant">#D5650E</item><!-- color fondo barra superior -->
+        <item name="colorOnPrimary">#1229AC</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFDD2B</item>
+        <item name="colorSecondaryVariant">#9132C1</item>
+        <item name="colorOnSecondary">#753700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

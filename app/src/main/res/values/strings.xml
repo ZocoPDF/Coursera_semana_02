@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Coursera_semana_02</string>
+    <string name="tituloformulario">Contacto:</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="fechanacimiento">Fecha de nacimiento:</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción</string>
+    <string name="siguiente">Siguiente</string>
+
+    <string name="tituloconfirmardatos">Confirmar Datos:</string>
+    <string name="confirmacionnombre">Nombre</string>
+    <string name="confirmacionfecha">Fecha</string>
+    <string name="confirmaciontelefono">Telefono</string>
+    <string name="confirmacionemail">Email</string>
+    <string name="confirmaciondescripcion">Fecha</string>
+
+
+    <dimen name="ancho_celda">200dp</dimen>
+    <dimen name="tamañotexto">20</dimen>
+</resources>
